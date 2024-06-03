@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function Pessoa({nome, idade, profissão, foto}) {
     return (
         <>
@@ -7,6 +9,10 @@ function Pessoa({nome, idade, profissão, foto}) {
             <p>Profissão: {profissão}</p>
         </>
     )
+}
+
+Pessoa.propTypes = {
+    nome: PropTypes.string
 }
 
 export default Pessoa

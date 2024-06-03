@@ -1,18 +1,14 @@
 import './App.css';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
+import Lista from './components/Lista';
 
 function App() {
 
+  const meusItens = ['React', 'Vue', 'angular']
+
   return (
     <div className="App">
-      <SayMyName nome="Matheus"></SayMyName>
-      <Pessoa
-        nome="Matheus"
-        idade="16"
-        profissão="Font End Developer"
-        foto="https://via.placeholder.com/150">
-        </Pessoa>
+      <h1>Renderização De listas</h1>
+      <Lista itens={meusItens}></Lista>
     </div>
   );
 }
