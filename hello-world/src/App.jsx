@@ -1,14 +1,16 @@
 import './App.css';
-import Lista from './components/Lista';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+// import { useState } from "react";
 
 function App() {
-
-  const meusItens = ['React', 'Vue', 'angular']
-
+  // const [nome, setNome] = useState('')
   return (
     <div className="App">
-      <h1>Renderização De listas</h1>
-      <Lista itens={meusItens}></Lista>
+      <Router>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+        </ul>
+      </Router>
     </div>
   );
 }
