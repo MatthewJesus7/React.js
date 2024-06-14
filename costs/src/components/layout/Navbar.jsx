@@ -3,10 +3,11 @@ import styles from './Navbar.module.css'
 import { BsCoin } from "react-icons/bs";
 import Container from './Container'
 
+
 function Navbar() {
     return(
         <nav className={styles.navbar}>
-            <Container>
+            <Container customClass="width1200">
                 <Link to="/">
                     <BsCoin className={styles.icon}></BsCoin>
                 </Link>
@@ -25,7 +26,7 @@ function Navbar() {
                         <Link to="/Contact">Contato</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/NewProject">Novo Projeto</Link>
+                        <Link to="/NewProject">Criar Projeto</Link>
                     </li>
                 </ul>
             </Container>

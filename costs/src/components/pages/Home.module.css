@@ -5,12 +5,12 @@
     align-items: center;
     justify-content: center;
     padding: 4em;
-    margin: auto;
 }
 
 .home_container h1 {
     font-size: 2.5em;
     margin-bottom: .5em;
+    text-align: center;
 }
 
 .home_container h1 span {
@@ -19,6 +19,10 @@
     background-color: #222;
 }
 
+.home_container p {
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
 
 .piggy {
     font-size: 30vw;
