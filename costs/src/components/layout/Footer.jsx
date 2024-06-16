@@ -1,5 +1,5 @@
 import styles from './Footer.module.css'
-import { FaGithub, FaInstagram, FaLinkedin, FaCoins } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
     return(
